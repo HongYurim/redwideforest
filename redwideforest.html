@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
+
+
+
+<style>
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Azeret Mono');
+
+body {
+    font-family: 'Azeret Mono';
+  }
+
+::-webkit-scrollbar {
+  width : 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 249);
+}
+
+::-webkit-scrollbar-track {
+    background-color:lightsteelblue;
+}
+
+  * {
+     font-family: 'Azeret Mono';
+     background-color: ;
+     cursor: url("cursor_1.png"), default;
+    
+}
+
+::selection {
+		  background-color: black;
+			color: yellow;
+			}
+
+.pink {
+      background-color: rgb(255,0,128);
+}
+
+#warning{
+    color:red;
+    position:fixed; bottom:30px;
+}
+
+.header{
+    display:block;
+    grid-template-rows: repeat(auto-fill, minmax(5, 1fr)); 
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom:0px;
+    align-items: center;
+    justify-items: center;
+    
+}
+  
+#first{
+    display:block;
+    grid-template-rows: repeat(auto-fill, minmax(5, 1fr)); 
+    padding-bottom:0px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.items0{
+    background-color: black;
+    color: blue;
+    text-align: center;
+}
+
+
+.items1{
+    background-color:rgb(0, 255, 0)
+    
+}
+
+.items2{
+    background-color:rgb(255, 255, 0)
+
+}
+
+.items3{
+    background-color:rgb(0, 255, 255)
+
+}
+
+.items4{
+    background-color:rgb(255, 0, 0)
+
+}
+
+.items6{
+}
+
+#second{
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:10px;
+  color: white;
+  
+}
+
+#third{
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: rgb(0, 0, 0);
+  
+}
+
+#fourth{
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: rgb(0, 0, 0);
+}
+
+.span1{
+  background: darkgreen;
+}
+
+.hide {
+  display: none;
+}
+
+.earth:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.bottom { 
+  position: fixed; right:20px; bottom:20px;
+}
+  </style>
+</head>
+
+<body>
+
+<div class="header" id="myHeader">
+    <div class="items0">
+      <img src="yurim_reverse.png" alt="header" width="200px" style="margin-top: 17px;"><br>
+      @redwideforest@<br> 
+      <div id="welcome">
+        <div class="earth"><img src="1.png" alt="평평한 지구" width="200px"></div class>
+        <div class="hide">Welcome to my island!</div class>
+      </div id>
+      <br>
+    </div>    
+    <div class="items1">01. Graphic design</div>
+    <div class="items2">02. Printed matteres</div>
+    <div class="items3">03. Branding</div>
+    <div class="items4"><a href="#gallery_1">04. Gallery</a></div>
+    <div class="items5">05. Archive & Further research</div>
+  </div>
+</div class="header" id="myHeader">
+
+  <div id="second">
+    <table border="1"> 
+      <col span="2" style="background-color:lightsteelblue;">
+      <tr>
+        <th>Welcome to my page for general and complex research of @design@.<br>
+            <img src="4.png", width=100px; alt="out!"><br>WARNING!
+            If you find any error while exploring, please contact me. 
+        </th>
+        <th>@This is not a website for pseudo-science ...@. <br>For real.</th>
+        <th>The earth is...</div class></th>
+      </tr>
+      <tr>
+        <td><span class="span1">An undergraduate in <a href="https://sidi.hongik.ac.kr/" target="_blank" style="color: yellow;">Visual Communication Design at Hongik University</a> in Korea, who is studying because of interest in general graphic design. Interested in art directing, graphic design, book design. And love to experiment to find new ways to approach design such as binding books and printing methods. Also interested in grasping true meaning and context of graphic design in our society and solving them from a speculative view.</span></td>
+        <td><span class="span1">"Exploring colorful ways.".</span></td>
+        <td>flat</td>
+      </tr> 
+    </table>
+  </div id>
+
+  
+
+
+  
+
+
+    <div class="bottom">
+      <img src="bottom_1.png", width=50px; alt="easteregg">
+    </div>
+
+    <div id="warning">
+      <div class="earth"><u>If you wanna contact me, plz move your cursor over here.</u></div class>
+      <div class="hide">Instagram : @redwideforest KR : +82 1035189261 SE : +46 728354062 E-mail : your991004@naver.com
+      </div class>
+    </div id>
+    
+
+
+</body>
